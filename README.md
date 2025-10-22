@@ -26,9 +26,8 @@ TickerQ_Demo/
 
 ## 🛠️ Prerequisites
 
-- **.NET 10.0** or later
+- **.NET 8.0** or later
 - **SQL Server** (LocalDB, Express, or full version)
-- **Node.js 18+** (for documentation site)
 - **Visual Studio** or **VS Code** with C# extension
 
 ## 📦 Key Components
