@@ -1,0 +1,6 @@
+@TickerQ_Demo_HostAddress = http://localhost:5219
+
+GET {{TickerQ_Demo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

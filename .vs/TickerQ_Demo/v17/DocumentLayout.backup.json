@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HEMA\\TickerQ_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|d:\\hema\\tickerq_demo\\application\\jobs\\hamarayatamatem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|solutionrelative:application\\jobs\\hamarayatamatem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9984386-38E2-405B-881C-70F6A22784CD}|TickerQ_Demo\\TickerQ_Demo.csproj|d:\\hema\\tickerq_demo\\tickerq_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9984386-38E2-405B-881C-70F6A22784CD}|TickerQ_Demo\\TickerQ_Demo.csproj|solutionrelative:tickerq_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9984386-38E2-405B-881C-70F6A22784CD}|TickerQ_Demo\\TickerQ_Demo.csproj|d:\\hema\\tickerq_demo\\tickerq_demo\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9984386-38E2-405B-881C-70F6A22784CD}|TickerQ_Demo\\TickerQ_Demo.csproj|solutionrelative:tickerq_demo\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|d:\\hema\\tickerq_demo\\application\\jobs\\backgroundjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|solutionrelative:application\\jobs\\backgroundjobs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|d:\\hema\\tickerq_demo\\application\\jobs\\jobwithdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|solutionrelative:application\\jobs\\jobwithdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|d:\\hema\\tickerq_demo\\application\\jobs\\exceptionjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|solutionrelative:application\\jobs\\exceptionjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|d:\\hema\\tickerq_demo\\application\\services\\tickerexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FCF4B09-D051-4FFC-A1D6-9A67F2FCD9F0}|Application\\Application.csproj|solutionrelative:application\\services\\tickerexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 431,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HamaraYaTamatem.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\HamaraYaTamatem.cs",
+              "RelativeDocumentMoniker": "Application\\Jobs\\HamaraYaTamatem.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\HamaraYaTamatem.cs*",
+              "RelativeToolTip": "Application\\Jobs\\HamaraYaTamatem.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:50:54.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\TickerQ_Demo\\Program.cs",
+              "RelativeDocumentMoniker": "TickerQ_Demo\\Program.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\TickerQ_Demo\\Program.cs",
+              "RelativeToolTip": "TickerQ_Demo\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:40:44.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackgroundJobs.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\BackgroundJobs.cs",
+              "RelativeDocumentMoniker": "Application\\Jobs\\BackgroundJobs.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\BackgroundJobs.cs",
+              "RelativeToolTip": "Application\\Jobs\\BackgroundJobs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:15:01.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobWithData.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\JobWithData.cs",
+              "RelativeDocumentMoniker": "Application\\Jobs\\JobWithData.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\JobWithData.cs",
+              "RelativeToolTip": "Application\\Jobs\\JobWithData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:13:23.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionJob.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\ExceptionJob.cs",
+              "RelativeDocumentMoniker": "Application\\Jobs\\ExceptionJob.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\Application\\Jobs\\ExceptionJob.cs",
+              "RelativeToolTip": "Application\\Jobs\\ExceptionJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:03:12.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TickerExceptionHandler.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\Application\\Services\\TickerExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TickerExceptionHandler.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\Application\\Services\\TickerExceptionHandler.cs",
+              "RelativeToolTip": "Application\\Services\\TickerExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:03:07.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestsController.cs",
+              "DocumentMoniker": "D:\\HEMA\\TickerQ_Demo\\TickerQ_Demo\\Controllers\\RequestsController.cs",
+              "RelativeDocumentMoniker": "TickerQ_Demo\\Controllers\\RequestsController.cs",
+              "ToolTip": "D:\\HEMA\\TickerQ_Demo\\TickerQ_Demo\\Controllers\\RequestsController.cs",
+              "RelativeToolTip": "TickerQ_Demo\\Controllers\\RequestsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:00:55.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 261,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

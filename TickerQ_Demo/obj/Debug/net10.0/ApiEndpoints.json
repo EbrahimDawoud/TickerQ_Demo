@@ -1,0 +1,588 @@
+[
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "DeleteCronTickerOccurrenceAsync",
+    "RelativePath": "api/cron-ticker-occurrence/:delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickerOccurrencesAsync",
+    "RelativePath": "api/cron-ticker-occurrences/:cronTickerId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cronTickerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickerOccurrencesGraphDataAsync",
+    "RelativePath": "api/cron-ticker-occurrences/:cronTickerId/:graph-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cronTickerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "AddCronTickerAsync",
+    "RelativePath": "api/cron-ticker/:add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TickerQ.Utilities.DashboardDtos.AddCronTickerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "DeleteCronTickerAsync",
+    "RelativePath": "api/cron-ticker/:delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "RunCronTickerOnDemandAsync",
+    "RelativePath": "api/cron-ticker/:run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "UpdateCronTickerAsync",
+    "RelativePath": "api/cron-ticker/:update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "TickerQ.Utilities.DashboardDtos.UpdateCronTickerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickersAsync",
+    "RelativePath": "api/cron-tickers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickersGraphDataAsync",
+    "RelativePath": "api/cron-tickers/:graph-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickersGraphDataByRangeAsync",
+    "RelativePath": "api/cron-tickers/:graph-data-range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pastDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "futureDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetCronTickersByIdGraphDataByRangeAsync",
+    "RelativePath": "api/cron-tickers/:graph-data-range-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "pastDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "futureDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetOptions",
+    "RelativePath": "api/options",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.RequestsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Application.DTOs.RequestDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.RequestsController",
+    "Method": "GetLogs",
+    "RelativePath": "api/Requests/{id}/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Application.DTOs.RequestLogDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.RequestsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Requests/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "Domain.Enums.RequestStatus",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.DTOs.RequestDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.RequestsController",
+    "Method": "Create",
+    "RelativePath": "api/Requests/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Application.DTOs.CreateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.DTOs.RequestDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.RequestsController",
+    "Method": "ScheduleBackgroundJobs",
+    "RelativePath": "api/Requests/Schedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "point",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTickerFunctionsAsync",
+    "RelativePath": "api/ticker-functions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetNextTickerAsync",
+    "RelativePath": "api/ticker-host/:next-ticker",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "RestartTickerHostAsync",
+    "RelativePath": "api/ticker-host/:restart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "StartTickerHostAsync",
+    "RelativePath": "api/ticker-host/:start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTickerHostStatusAsync",
+    "RelativePath": "api/ticker-host/:status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "StopTickerHostAsync",
+    "RelativePath": "api/ticker-host/:stop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTickerRequestByIdAsync",
+    "RelativePath": "api/ticker-request/:id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tickerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "tickerType",
+        "Type": "TickerQ.Utilities.Enums.TickerType",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "CancelTickerByIdAsync",
+    "RelativePath": "api/ticker/:cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetMachineJobsAsync",
+    "RelativePath": "api/ticker/machine/:jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetJobStatusesAsync",
+    "RelativePath": "api/ticker/statuses/:get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetLastWeekJobStatusAsync",
+    "RelativePath": "api/ticker/statuses/:get-last-week",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "AddTimeTickerAsync",
+    "RelativePath": "api/time-ticker/:add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TickerQ.Utilities.DashboardDtos.AddTimeTickerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "DeleteTimeTickerAsync",
+    "RelativePath": "api/time-ticker/:delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "UpdateTimeTickerAsync",
+    "RelativePath": "api/time-ticker/:update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "request",
+        "Type": "TickerQ.Utilities.DashboardDtos.UpdateTimeTickerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTimeTickersAsync",
+    "RelativePath": "api/time-tickers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTimeTickersGraphDataAsync",
+    "RelativePath": "api/time-tickers/:graph-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "GetTimeTickersGraphDataByRangeAsync",
+    "RelativePath": "api/time-tickers/:graph-data-range",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pastDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "futureDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "SetBatchParent",
+    "RelativePath": "api/time-tickers/set-batch-parent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TickerQ.Dashboard.Requests.SetBatchParentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ.Dashboard.Controllers.TickerQController",
+    "Method": "UnbatchTimeTicker",
+    "RelativePath": "api/time-tickers/unbatch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TickerQ.Dashboard.Requests.UnbatchTickerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TickerQ_Demo.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TickerQ_Demo.WeatherForecast, TickerQ_Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
