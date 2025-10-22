@@ -76,23 +76,6 @@ dotnet run --project TickerQ_Demo
 - **API**: `https://localhost:7000/swagger`
 - **Dashboard**: `https://localhost:7000/dashboard`
 
-## 📚 Documentation
-
-The project includes comprehensive documentation built with Docusaurus:
-
-### Local Development
-```bash
-cd docs
-npm install
-npm start
-```
-
-### Build Documentation
-```bash
-cd docs
-npm run build
-```
-
 ## 🔧 Configuration
 
 ### Connection String
@@ -150,6 +133,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🔗 Related Links
 
 - [TickerQ Documentation](https://tickerq.net/)
+- [HemaDocs](https://ebrahimdawoud.github.io/TickerQUserManual/)
 ---
 
-**Built with ❤️ using TickerQ, .NET, and Docusaurus**
+**Built with ❤️ using TickerQ, .NET, and Docusaurus By AboKhalil**
