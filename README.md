@@ -149,10 +149,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Related Links
 
-- [TickerQ Documentation](https://github.com/your-org/tickerq)
-- [.NET Documentation](https://docs.microsoft.com/en-us/dotnet/)
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
-
+- [TickerQ Documentation](https://tickerq.net/)
 ---
 
 **Built with ❤️ using TickerQ, .NET, and Docusaurus**
