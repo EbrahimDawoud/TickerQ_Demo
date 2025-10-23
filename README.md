@@ -20,8 +20,7 @@ TickerQ_Demo/
 ├── Domain/           # Entities and Enums
 ├── Application/      # Services, Jobs, and DTOs
 ├── Infrastructure/   # Data Access and Persistence
-├── TickerQ_Demo/     # Web API and Controllers
-└── docs/            # Documentation Site (Docusaurus)
+└── TickerQ_Demo/     # Web API and Controllers
 ```
 
 ## 🛠️ Prerequisites
@@ -124,10 +123,6 @@ The documentation site includes:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🔗 Related Links
 
